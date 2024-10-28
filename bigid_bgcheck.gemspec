@@ -24,7 +24,7 @@ Gem::Specification.new do |s|
   s.add_dependency             "bigid_auth", "~> 1.1.0", ">= 1.0.0"
   s.add_dependency             "i18n"
   s.add_dependency             "json"
-  s.add_dependency             "cpf_cnpj", "~> 0.5", ">= 0.5"
+  s.add_dependency             "cpf_cnpj", ">= 0.5", "< 2.0"
 
   s.add_development_dependency "factory_bot"
   s.add_development_dependency "pry"
